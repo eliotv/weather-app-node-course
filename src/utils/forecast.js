@@ -19,7 +19,7 @@ const forecast = (longitude, latitude, callback) => {
                 + ' degrees out. Although it feels like ' 
                 + body.current.feelslike
                 + '. The humidity for today is '
-                + body.current.humidity 
+                + body.current.humidity + '%'
                 + '. The wind speed for today is '
                 + body.current.wind_speed 
                 + '.')
