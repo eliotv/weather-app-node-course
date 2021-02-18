@@ -1,7 +1,3 @@
-
-
-
-
 const weatherForm = document.querySelector('form')
 // Extract search value
 const search = document.querySelector('input')
@@ -28,5 +24,4 @@ weatherForm.addEventListener('submit', (event) => {
                 messageTwo.textContent = data.forecast
             }
         })
-    })
 })
