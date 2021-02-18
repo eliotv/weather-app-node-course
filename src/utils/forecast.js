@@ -17,7 +17,12 @@ const forecast = (longitude, latitude, callback) => {
                 + ' throughout the day. It is currently ' 
                 + body.current.temperature 
                 + ' degrees out. Although it feels like ' 
-                + body.current.feelslike)
+                + body.current.feelslike
+                + '. The humidity for today is '
+                + body.current.humidity 
+                + '. The wind speed for today is '
+                + body.current.wind_speed 
+                + '.')
         }
     })
 }
